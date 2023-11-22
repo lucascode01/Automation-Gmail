@@ -12,7 +12,7 @@ def enviar_email():
     msg['Subject'] = "Assunto"
     msg['From'] = 'lucassantoschaves369@gmail.com'
     msg['To'] = 'lucassantoschaves369@gmail.com,lucasdesigner808@gmail.com'
-    password = 'dekwzglikkxnlrik' 
+    password = ' #INSERT PASSWORD ' 
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
